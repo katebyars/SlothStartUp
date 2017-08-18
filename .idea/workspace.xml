@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="890bf8be-65aa-4037-83dc-25cf1534fc34" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/dao/AttendeesDao.java" afterPath="$PROJECT_DIR$/src/main/java/dao/AttendeesDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/dao/Sql2oAttendeesDao.java" afterPath="$PROJECT_DIR$/src/main/java/dao/Sql2oAttendeesDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/dao/Sql2oAttendeesDaoTest.java" afterPath="$PROJECT_DIR$/src/test/java/dao/Sql2oAttendeesDaoTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -49,7 +47,7 @@
           <file leaf-file-name="Sql2oAttendeesDao.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/dao/Sql2oAttendeesDao.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="557">
+                <state relative-caret-position="776">
                   <caret line="86" column="43" lean-forward="false" selection-start-line="86" selection-start-column="43" selection-end-line="86" selection-end-column="43" />
                   <folding>
                     <element signature="imports" expanded="true" />
@@ -62,14 +60,24 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="Sql2oAttendeesDaoTest.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="Sql2oAttendeesDaoTest.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/test/java/dao/Sql2oAttendeesDaoTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="704">
+                <state relative-caret-position="1380">
                   <caret line="92" column="54" lean-forward="false" selection-start-line="92" selection-start-column="54" selection-end-line="92" selection-end-column="54" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/README.md">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="135">
+                  <caret line="9" column="154" lean-forward="false" selection-start-line="9" selection-start-column="154" selection-end-line="9" selection-end-column="154" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -400,14 +408,15 @@
         <option value="$PROJECT_DIR$/src/main/java/dao/Sql2oAttendeesDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/dao/AttendeesDao.java" />
         <option value="$PROJECT_DIR$/src/test/java/dao/Sql2oAttendeesDaoTest.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
+    <option name="x" value="-2" />
     <option name="y" value="23" />
     <option name="width" value="2563" />
-    <option name="height" value="1144" />
+    <option name="height" value="1308" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -1046,14 +1055,14 @@
     <history-entry file="Sql2oAttendeesDaoTest - 2017.08.18 at 15h 25m 01s.xml">
       <configuration name="Sql2oAttendeesDaoTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Sql2oAttendeesDaoTest_deleteAllAttendees_True - 2017.08.18 at 15h 27m 40s.xml">
+      <configuration name="Sql2oAttendeesDaoTest.deleteAllAttendees_True" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="Sql2oAttendeesDaoTest_deleteAnAttendeeByID_True - 2017.08.18 at 15h 24m 38s.xml">
       <configuration name="Sql2oAttendeesDaoTest.deleteAnAttendeeByID_True" configurationId="JUnit" />
     </history-entry>
     <history-entry file="Sql2oAttendeesDaoTest_deleteAnAttendeeByID_True - 2017.08.18 at 15h 24m 52s.xml">
       <configuration name="Sql2oAttendeesDaoTest.deleteAnAttendeeByID_True" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Sql2oAttendeesDaoTest_updateAttendeeInformation_True - 2017.08.18 at 15h 09m 10s.xml">
-      <configuration name="Sql2oAttendeesDaoTest.updateAttendeeInformation_True" configurationId="JUnit" />
     </history-entry>
     <history-entry file="Sql2oAttendeesDaoTest_updateAttendeeInformation_True - 2017.08.18 at 15h 11m 42s.xml">
       <configuration name="Sql2oAttendeesDaoTest.updateAttendeeInformation_True" configurationId="JUnit" />
@@ -1075,7 +1084,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="23" width="2563" height="1144" extended-state="0" />
+    <frame x="-2" y="23" width="2563" height="1308" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1090,7 +1099,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30513307" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2081749" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18009868" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17889726" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
@@ -1151,14 +1160,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1249,7 +1250,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dao/Sql2oAttendeesDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="557">
+        <state relative-caret-position="776">
           <caret line="86" column="43" lean-forward="false" selection-start-line="86" selection-start-column="43" selection-end-line="86" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1269,11 +1270,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/dao/Sql2oAttendeesDaoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
+        <state relative-caret-position="1380">
           <caret line="92" column="54" lean-forward="false" selection-start-line="92" selection-start-column="54" selection-end-line="92" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="154" lean-forward="false" selection-start-line="9" selection-start-column="154" selection-end-line="9" selection-end-column="154" />
+          <folding />
         </state>
       </provider>
     </entry>
