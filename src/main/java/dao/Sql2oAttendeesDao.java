@@ -44,14 +44,14 @@ public class Sql2oAttendeesDao implements AttendeesDao {
                     .executeAndFetch(Attendees.class);
         }
     }
-//    @Override
-//    public Attendees findById(int id){
-//        try(Connection con = sql2o.open()){
-//            return con.createQuery("SELECT * FROM attendees WHERE id = :id")
-//                    .addParameter("id", id) //key/value pair, key must match above
-//                    .executeAndFetchFirst(Attendees.class); //fetch an individual item
-//        }
-//    }
+    @Override
+    public Attendees findById(int id){
+        try(Connection con = sql2o.open()){
+            return con.createQuery("SELECT * FROM attendees WHERE id = :id")
+                    .addParameter("id", id) //key/value pair, key must match above
+                    .executeAndFetchFirst(Attendees.class); //fetch an individual item
+        }
+    }
 //
 //    @Override
 //    public void updateAttendee (int id, String name, String description, String speaker, String room){

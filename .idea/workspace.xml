@@ -4,9 +4,7 @@
     <list default="true" id="890bf8be-65aa-4037-83dc-25cf1534fc34" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/dao/AttendeesDao.java" afterPath="$PROJECT_DIR$/src/main/java/dao/AttendeesDao.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/dao/Sql2oAttendeesDao.java" afterPath="$PROJECT_DIR$/src/main/java/dao/Sql2oAttendeesDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/models/Attendees.java" afterPath="$PROJECT_DIR$/src/main/java/models/Attendees.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/dao/Sql2oAttendeesDaoTest.java" afterPath="$PROJECT_DIR$/src/test/java/dao/Sql2oAttendeesDaoTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/dao/Sql2oEventDaoTest.java" afterPath="$PROJECT_DIR$/src/test/java/dao/Sql2oEventDaoTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -32,44 +30,52 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.25287884">
+    <splitter split-orientation="horizontal" split-proportion="0.3399355">
       <split-first>
-        <leaf>
-          <file leaf-file-name="Sql2oAttendeesDao.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/dao/Sql2oAttendeesDao.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="896">
-                  <caret line="93" column="0" lean-forward="false" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="1" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Sql2oEventDaoTest.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/test/java/dao/Sql2oEventDaoTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="455">
-                  <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
+        <splitter split-orientation="vertical" split-proportion="0.8871549">
+          <split-first>
+            <leaf>
+              <file leaf-file-name="Sql2oAttendeesDao.java" pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/src/main/java/dao/Sql2oAttendeesDao.java">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="191">
+                      <caret line="46" column="13" lean-forward="true" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
+                      <folding>
+                        <element signature="imports" expanded="true" />
+                      </folding>
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+            </leaf>
+          </split-first>
+          <split-second>
+            <leaf>
+              <file leaf-file-name="Sql2oEventDaoTest.java" pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/src/test/java/dao/Sql2oEventDaoTest.java">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="116">
+                      <caret line="33" column="5" lean-forward="false" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+                      <folding>
+                        <element signature="imports" expanded="true" />
+                      </folding>
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+            </leaf>
+          </split-second>
+        </splitter>
       </split-first>
       <split-second>
-        <splitter split-orientation="horizontal" split-proportion="0.30394575">
+        <splitter split-orientation="horizontal" split-proportion="0.47102344">
           <split-first>
             <leaf>
               <file leaf-file-name="AttendeesDao.java" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/src/main/java/dao/AttendeesDao.java">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="150">
-                      <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="29" />
+                    <state relative-caret-position="135">
+                      <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
                       <folding>
                         <element signature="imports" expanded="true" />
                       </folding>
@@ -84,8 +90,8 @@
               <file leaf-file-name="Sql2oAttendeesDaoTest.java" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/src/test/java/dao/Sql2oAttendeesDaoTest.java">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="460">
-                      <caret line="37" column="15" lean-forward="false" selection-start-line="37" selection-start-column="15" selection-end-line="37" selection-end-column="15" />
+                    <state relative-caret-position="542">
+                      <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
                       <folding>
                         <element signature="imports" expanded="true" />
                       </folding>
@@ -686,33 +692,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Sql2oAttendeesDaoTest.attendeesAddToTheDao_True">
-    <configuration default="false" name="Sql2oEventDaoTest.deleteAnEventById_True" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Sloth-StartUp_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="dao" />
-      <option name="MAIN_CLASS_NAME" value="dao.Sql2oEventDaoTest" />
-      <option name="METHOD_NAME" value="deleteAnEventById_True" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.Sql2oAttendeesDaoTest.findAnAttendeeById_True">
     <configuration default="false" name="Sql2oEventDaoTest.deletesCorrectEventWhenDeleteEventById_True" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -804,6 +784,32 @@
       <option name="PACKAGE_NAME" value="dao" />
       <option name="MAIN_CLASS_NAME" value="dao.Sql2oAttendeesDaoTest" />
       <option name="METHOD_NAME" value="attendeesAddToTheDao_True" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="Sql2oAttendeesDaoTest.findAnAttendeeById_True" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Sloth-StartUp_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="dao" />
+      <option name="MAIN_CLASS_NAME" value="dao.Sql2oAttendeesDaoTest" />
+      <option name="METHOD_NAME" value="findAnAttendeeById_True" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1022,19 +1028,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.Sql2oEventDaoTest.deleteAnEventById_True" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.Sql2oEventDaoTest.deletesCorrectEventWhenDeleteEventById_True" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.Sql2oEventDaoTest.deleteAllEvents_True" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.Sql2oAttendeesDaoTest.attendeesAddToTheDao" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.Sql2oAttendeesDaoTest.attendeesAddToTheDao_True" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.Sql2oEventDaoTest.deletesCorrectEventWhenDeleteEventById_True" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.Sql2oEventDaoTest.deleteAllEvents_True" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.Sql2oAttendeesDaoTest.attendeesAddToTheDao" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.Sql2oAttendeesDaoTest.attendeesAddToTheDao_True" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.Sql2oAttendeesDaoTest.findAnAttendeeById_True" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.Sql2oAttendeesDaoTest.attendeesAddToTheDao_True" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.Sql2oAttendeesDaoTest.attendeesAddToTheDao" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.Sql2oEventDaoTest.deletesCorrectEventWhenDeleteEventById_True" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.Sql2oEventDaoTest.deleteAllEvents_True" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.Sql2oEventDaoTest.deleteAnEventById_True" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.Sql2oAttendeesDaoTest.findAnAttendeeById_True" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.Sql2oAttendeesDaoTest.attendeesAddToTheDao_True" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.Sql2oAttendeesDaoTest.attendeesAddToTheDao" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.Sql2oEventDaoTest.deletesCorrectEventWhenDeleteEventById_True" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.Sql2oEventDaoTest.deleteAllEvents_True" />
       </list>
     </recent_temporary>
   </component>
@@ -1052,6 +1058,9 @@
     <servers />
   </component>
   <component name="TestHistory">
+    <history-entry file="Sql2oAttendeesDaoTest_attendeesAddToTheDao_True - 2017.08.18 at 14h 51m 51s.xml">
+      <configuration name="Sql2oAttendeesDaoTest.attendeesAddToTheDao_True" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="Sql2oEventDaoTest_deleteAnEventById_True - 2017.08.18 at 14h 20m 45s.xml">
       <configuration name="Sql2oEventDaoTest.deleteAnEventById_True" configurationId="JUnit" />
     </history-entry>
@@ -1073,9 +1082,6 @@
     <history-entry file="Sql2oEventDaoTest_deletesCorrectEventWhenDeleteEventById_True - 2017.08.18 at 14h 26m 38s.xml">
       <configuration name="Sql2oEventDaoTest.deletesCorrectEventWhenDeleteEventById_True" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Sql2oEventDaoTest_findAnEventById_True - 2017.08.18 at 14h 15m 31s.xml">
-      <configuration name="Sql2oEventDaoTest.findAnEventById_True" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Sql2oEventDaoTest_updateEventUpdatesNameWhenMoreThanOneEvent_True - 2017.08.18 at 14h 16m 58s.xml">
       <configuration name="Sql2oEventDaoTest.updateEventUpdatesNameWhenMoreThanOneEvent_True" configurationId="JUnit" />
     </history-entry>
@@ -1090,7 +1096,7 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32794678" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32794678" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1099,7 +1105,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30513307" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2081749" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2081749" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13883379" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
@@ -1123,7 +1129,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1238,10 +1244,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/Sql2oAttendeesDao.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/dao/Sql2oEventDaoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="896">
-          <caret line="93" column="0" lean-forward="false" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="1" />
+        <state relative-caret-position="116">
+          <caret line="33" column="5" lean-forward="false" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1250,18 +1256,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dao/AttendeesDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="29" />
+        <state relative-caret-position="135">
+          <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/dao/Sql2oEventDaoTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/Sql2oAttendeesDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+        <state relative-caret-position="191">
+          <caret line="46" column="13" lean-forward="true" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1270,8 +1276,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/dao/Sql2oAttendeesDaoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="37" column="15" lean-forward="false" selection-start-line="37" selection-start-column="15" selection-end-line="37" selection-end-column="15" />
+        <state relative-caret-position="542">
+          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

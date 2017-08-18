@@ -40,6 +40,15 @@ public class Sql2oAttendeesDaoTest {
         attendeesDao.add(testAttendee);
         assertEquals(1, attendeesDao.getAll().size());
     }
-
+    @Test
+    public void findAnAttendeeById_True() throws Exception {
+        Attendees attendee = testAttendee();
+        attendeesDao.add(attendee);
+        Attendees newAttendee = testAttendee();
+        attendeesDao.add(newAttendee);
+        Attendees otherAttendee = testAttendee();
+        attendeesDao.add(otherAttendee);
+        assertEquals(newAttendee, attendeesDao.findById(2));
+    }
 
 }

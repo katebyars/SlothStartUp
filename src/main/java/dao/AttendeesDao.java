@@ -4,14 +4,11 @@ import models.Attendees;
 
 public interface AttendeesDao {
 
-    //create an attendee
     void add (Attendees attendee);
 
-//    //list all attendees
     List<Attendees> getAll();
-//
-//    //find an attendee by its id
-//    Attendees findById(int id);
+
+    Attendees findById(int id);
 //
 //    //update attendee details
 //    void updateAttendee(int id, String name, String description, String speaker, String room);
