@@ -78,4 +78,19 @@ public class Sql2oAttendeesDaoTest {
         assertEquals("Flash", attendeesDao.findById(3).getName());
     }
 
+    @Test
+    public void deleteAllAttendees_True() {
+        Attendees attendee = testAttendee();
+        Attendees attendee2 = testAttendee();
+        Attendees attendee3 = testAttendee();
+        Attendees Gertrude = new Attendees("Gertrude", "Slowpokeroanoke", 122, "Leafan", 4 );
+        attendeesDao.add(attendee);
+        attendeesDao.add(attendee2);
+        attendeesDao.add(attendee3);
+        attendeesDao.add(Gertrude);
+        assertEquals(4, attendeesDao.getAll().size());
+        attendeesDao.clearAllAttendees();
+        assertEquals(0, attendeesDao.getAll().size());
+    }
+
 }

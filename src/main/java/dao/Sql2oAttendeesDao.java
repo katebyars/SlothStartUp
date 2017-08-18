@@ -82,14 +82,14 @@ public class Sql2oAttendeesDao implements AttendeesDao {
         }
     }
 
-//    @Override
-//    public void clearAllEvents() {
-//        String sql = "DELETE from events";
-//        try (Connection con = sql2o.open()) {
-//            con.createQuery(sql)
-//                    .executeUpdate();
-//        } catch (Sql2oException ex){
-//            System.out.println(ex);
-//        }
-//    }
+    @Override
+    public void clearAllAttendees() {
+        String sql = "DELETE from attendees";
+        try (Connection con = sql2o.open()) {
+            con.createQuery(sql)
+                    .executeUpdate();
+        } catch (Sql2oException ex){
+            System.out.println(ex);
+        }
+    }
 }
