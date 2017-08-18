@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="890bf8be-65aa-4037-83dc-25cf1534fc34" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/dao/EventDao.java" afterPath="$PROJECT_DIR$/src/main/java/dao/EventDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/dao/Sql2oEventDao.java" afterPath="$PROJECT_DIR$/src/main/java/dao/Sql2oEventDao.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/dao/Sql2oEventDaoTest.java" afterPath="$PROJECT_DIR$/src/test/java/dao/Sql2oEventDaoTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -95,8 +93,8 @@
           <file leaf-file-name="Sql2oEventDaoTest.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/dao/Sql2oEventDaoTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="590">
-                  <caret line="104" column="28" lean-forward="false" selection-start-line="104" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+                <state relative-caret-position="431">
+                  <caret line="96" column="9" lean-forward="true" selection-start-line="96" selection-start-column="9" selection-end-line="96" selection-end-column="9" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -1070,8 +1068,11 @@
     <history-entry file="Sql2oEventDaoTest_deleteAnEventById_True - 2017.08.18 at 14h 21m 29s.xml">
       <configuration name="Sql2oEventDaoTest.deleteAnEventById_True" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Sql2oEventDaoTest_eventIsAddedToDAO_True - 2017.08.18 at 13h 58m 55s.xml">
-      <configuration name="Sql2oEventDaoTest.eventIsAddedToDAO_True" configurationId="JUnit" />
+    <history-entry file="Sql2oEventDaoTest_deletesCorrectEventWhenDeleteEventById_True - 2017.08.18 at 14h 22m 55s.xml">
+      <configuration name="Sql2oEventDaoTest.deletesCorrectEventWhenDeleteEventById_True" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Sql2oEventDaoTest_deletesCorrectEventWhenDeleteEventById_True - 2017.08.18 at 14h 23m 54s.xml">
+      <configuration name="Sql2oEventDaoTest.deletesCorrectEventWhenDeleteEventById_True" configurationId="JUnit" />
     </history-entry>
     <history-entry file="Sql2oEventDaoTest_findAnEventById_True - 2017.08.18 at 14h 05m 11s.xml">
       <configuration name="Sql2oEventDaoTest.findAnEventById_True" configurationId="JUnit" />
@@ -1081,9 +1082,6 @@
     </history-entry>
     <history-entry file="Sql2oEventDaoTest_findAnEventById_True - 2017.08.18 at 14h 15m 31s.xml">
       <configuration name="Sql2oEventDaoTest.findAnEventById_True" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Sql2oEventDaoTest_getAllEvents_True - 2017.08.18 at 14h 00m 39s.xml">
-      <configuration name="Sql2oEventDaoTest.getAllEvents_True" configurationId="JUnit" />
     </history-entry>
     <history-entry file="Sql2oEventDaoTest_updateEventUpdatesNameWhenMoreThanOneEvent_True - 2017.08.18 at 14h 16m 58s.xml">
       <configuration name="Sql2oEventDaoTest.updateEventUpdatesNameWhenMoreThanOneEvent_True" configurationId="JUnit" />
@@ -1105,7 +1103,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30513307" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30513307" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2081749" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1266,8 +1264,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/dao/Sql2oEventDaoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="590">
-          <caret line="104" column="28" lean-forward="false" selection-start-line="104" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+        <state relative-caret-position="431">
+          <caret line="96" column="9" lean-forward="true" selection-start-line="96" selection-start-column="9" selection-end-line="96" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
