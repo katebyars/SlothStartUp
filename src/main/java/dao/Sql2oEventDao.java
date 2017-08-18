@@ -67,11 +67,21 @@ public class Sql2oEventDao implements EventDao {
         }
     }
 
-
-}
-//    //delete an event
-//    void deleteById(int id);
+    @Override
+    public void deleteById(int id){
+        String sql = "DELETE from events WHERE id=:id";
+        try (Connection con = sql2o.open()) {
+            con.createQuery(sql)
+                    .addParameter("id", id)
+                    .executeUpdate();
+        } catch (Sql2oException ex){
+            System.out.println(ex);
+        }
+    }
 //
 //    //delete all events
 //    void clearAllEvents();
 //}
+
+
+}
