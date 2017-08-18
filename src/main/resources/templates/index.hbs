@@ -1,0 +1,17 @@
+{{#partial "content"}}
+    {{#if allEvents }}
+        {{#each allEvents }}
+            <div class="well">
+            <h1>{{ name }}</h1>
+            <p>Event details: {{ description }}</p>
+            <p><a href="/events/{{id}}">see more about this event...</a></p>
+            </div>
+        {{/each}}
+    {{else }}
+    <div class="well">
+    <h3>No events have been planned!</h3>
+    </div>
+    {{/if }}
+{{/partial }}
+
+{{> layout.hbs}}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{#block "title"}} StartUp Weekend{{/block}}</title>
+
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
+    <link rel='stylesheet' href='/css/app.css'>
+</head>
+<body>
+<ul class="nav nav-tabs">
+    <li role="presentation" class="active"><a href="/">Home</a></li>
+    <li role="presentation"><a href="/events/new">Add a New Event</a></li>
+    <li role="presentation"><a href="/about">About</a></li>
+
+</ul>
+<div class="container">
+    <!--begin main template-->
+    <div class="page-header">
+        <div class="row">
+            <div class="col-md-5">
+                <h4>WELCOME TO</h4><br>
+                <h5>SLOTH-A-CON 2017</h5>
+                <h2>The slowest route out there to building skills, meeting sloths and launching successful startups in one to one hundred and twenty years.</h2>
+            </div>
+            <div class="col-md-7">
+            </div>
+        </div>
+    </div>
+    <div class="col-md-12">
+        <h1>Organizer Dashboard</h1>
+        {{#block "content"}}
+
+        {{/block}}
+    </div>
+</div>
+<!--end main template-->
+        {{#block "footer"}}
+<footer class="footer">
+<div class="container">
+
+</div>
+</footer>
+</body>
+</html>
+<!--{{/block}}
