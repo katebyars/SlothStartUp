@@ -11,9 +11,9 @@ public interface AttendeesDao {
     Attendees findById(int id);
 
     void updateAttendee(int id, String name, String homeCity, int age, String foodPreference, int eventId);
-//
-//    //delete an attendee
-//    void deleteById(int id);
+
+//    //delete an attendee by ID
+    void deleteById(int id);
 //
 //    //delete all attendees
 //    void clearAllAttendees();
