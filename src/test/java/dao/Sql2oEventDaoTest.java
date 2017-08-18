@@ -62,4 +62,12 @@ public class Sql2oEventDaoTest {
         assertEquals("New Event 2", eventDao.findById(2).getName());
     }
 
+    @Test
+    public void updateEventUpdatesName_True() {
+        Event testEvent = testEvent();
+        eventDao.add(testEvent);
+        eventDao.updateEvent(1, "An Event", "A description", "Tim FerriSloth", "Super Slow Ballroom");
+        assertEquals("An Event", eventDao.findById(1).getName());
+    }
+
 }

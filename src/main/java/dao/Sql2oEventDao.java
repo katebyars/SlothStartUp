@@ -3,6 +3,8 @@ import models.Event;
 import org.sql2o.Connection;
 import org.sql2o.Sql2o;
 import org.sql2o.Sql2oException;
+
+import javax.annotation.PostConstruct;
 import java.util.List;
 
 public class Sql2oEventDao implements EventDao {
@@ -49,24 +51,24 @@ public class Sql2oEventDao implements EventDao {
         }
     }
 
+    @Override
+    public void updateEvent(int id, String name, String description, String speaker, String room){
+        String sql = "UPDATE events SET name = :name, description = :description, speaker = :speaker, room = :room WHERE id = :id";
+        try(Connection con = sql2o.open()) {
+            con.createQuery(sql)
+                    .addParameter("name", name)
+                    .addParameter("id", id)
+                    .addParameter("description", description)
+                    .addParameter("speaker", speaker)
+                    .addParameter("room", room)
+                    .executeUpdate();
+        } catch (Sql2oException ex) {
+            System.out.println(ex);
+        }
+    }
+
+
 }
-    //
-//    //list all events
-//    List<Event> getAll();
-//
-    //find an event by its id
-//    @Override
-//    public Event findById(int id) {
-//        try(Connection con = sql2o.open()) {
-//            return con.createQuery("SELECT * FROM events WHERE id = :id")
-//                    .addParameter("id", id)
-//                    .executeAndFetchFirst(Event.class);
-//        }
-//    }
-//
-//    //update event details
-//    void update(int id, String name);
-//
 //    //delete an event
 //    void deleteById(int id);
 //

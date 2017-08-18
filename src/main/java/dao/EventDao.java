@@ -14,7 +14,7 @@ public interface EventDao {
     Event findById(int id);
 
     //update event details
-//    void update(int id, String name);
+    void updateEvent(int id, String name, String description, String speaker, String room);
 
     //delete an event
 //    void deleteById(int id);
