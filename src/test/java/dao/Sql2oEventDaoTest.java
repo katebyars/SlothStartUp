@@ -18,7 +18,7 @@ public class Sql2oEventDaoTest {
     public void setUp() throws Exception {
         String connectionString = "jdbc:h2:mem:testing;INIT=RUNSCRIPT from 'classpath:db/create.sql'";
         Sql2o sql2o = new Sql2o(connectionString, "", "");
-        eventDao = new Sql2oEventDao(sql2o); //ignore me for now
+        eventDao = new Sql2oEventDao(sql2o);
         con = sql2o.open();
     }
 

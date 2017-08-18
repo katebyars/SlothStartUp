@@ -8,11 +8,14 @@ public class Attendees {
     private int age;
     private String foodPreference;
     private int id;
-    private List<Event> EventIds;
+    private int eventId;
 
-
-    public Attendees(String name) {
-
+    public Attendees(String name, String homeCity, int age, String foodPreference, int eventId) {
+        this.name = name;
+        this.homeCity = homeCity;
+        this.age = age;
+        this.foodPreference = foodPreference;
+        this.eventId = eventId;
     }
 
     public String getName() {
@@ -55,12 +58,12 @@ public class Attendees {
         this.id = id;
     }
 
-    public List<Event> getEventIds() {
-        return EventIds;
+    public int getEventId() {
+        return eventId;
     }
 
-    public void setEventIds(List<Event> eventIds) {
-        EventIds = eventIds;
+    public void setEventId(int eventId) {
+        this.eventId = eventId;
     }
 
     @Override
@@ -72,21 +75,20 @@ public class Attendees {
 
         if (age != attendees.age) return false;
         if (id != attendees.id) return false;
+        if (eventId != attendees.eventId) return false;
         if (!name.equals(attendees.name)) return false;
-        if (homeCity != null ? !homeCity.equals(attendees.homeCity) : attendees.homeCity != null) return false;
-        if (foodPreference != null ? !foodPreference.equals(attendees.foodPreference) : attendees.foodPreference != null)
-            return false;
-        return EventIds != null ? EventIds.equals(attendees.EventIds) : attendees.EventIds == null;
+        if (!homeCity.equals(attendees.homeCity)) return false;
+        return foodPreference.equals(attendees.foodPreference);
     }
 
     @Override
     public int hashCode() {
         int result = name.hashCode();
-        result = 31 * result + (homeCity != null ? homeCity.hashCode() : 0);
+        result = 31 * result + homeCity.hashCode();
         result = 31 * result + age;
-        result = 31 * result + (foodPreference != null ? foodPreference.hashCode() : 0);
+        result = 31 * result + foodPreference.hashCode();
         result = 31 * result + id;
-        result = 31 * result + (EventIds != null ? EventIds.hashCode() : 0);
+        result = 31 * result + eventId;
         return result;
     }
 }

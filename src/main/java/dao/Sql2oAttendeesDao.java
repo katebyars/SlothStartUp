@@ -1,29 +1,94 @@
 package dao;
-
 import models.Attendees;
+import org.sql2o.Connection;
+import org.sql2o.Sql2o;
+import org.sql2o.Sql2oException;
 
 import java.util.List;
 
-public class Sql2oAttendeesDao {
+public class Sql2oAttendeesDao implements AttendeesDao {
 
-//    //create an attendee
-//    void add (Attendees attendees);
+    private final Sql2o sql2o;
+
+    public Sql2oAttendeesDao(Sql2o sql2o) {
+        this.sql2o = sql2o;
+    }
+
+    @Override
+    public void add(Attendees attendee) {
+        String sql = "INSERT INTO attendees (name, homecity, age, foodpreference, eventid) VALUES (:name, :homecity, :age, :foodpreference, :eventid)";
+        try (Connection conn = sql2o.open()) {
+            int id = (int) conn.createQuery(sql)
+                    .addParameter("name", attendee.getName())
+                    .addParameter("homecity", attendee.getHomeCity())
+                    .addParameter("age", attendee.getAge())
+                    .addParameter("foodpreference", attendee.getFoodPreference())
+                    .addParameter("eventid", attendee.getEventId())
+                    .addColumnMapping("NAME", "name")
+                    .addColumnMapping("HOMECITY", "homecity")
+                    .addColumnMapping("AGE", "age")
+                    .addColumnMapping("FOODPREFERENCE", "foodpreference")
+                    .addColumnMapping("EVENTID", "eventid")
+                    .executeUpdate()
+                    .getKey();
+            attendee.setId(id);
+        } catch (Sql2oException ex) {
+            System.out.println(ex); //oops we have an error!
+        }
+    }
+
+    @Override
+    public List<Attendees> getAll() {
+        try(Connection con = sql2o.open()){
+            return con.createQuery("SELECT * FROM attendees")
+                    .executeAndFetch(Attendees.class);
+        }
+    }
+//    @Override
+//    public Attendees findById(int id){
+//        try(Connection con = sql2o.open()){
+//            return con.createQuery("SELECT * FROM attendees WHERE id = :id")
+//                    .addParameter("id", id) //key/value pair, key must match above
+//                    .executeAndFetchFirst(Attendees.class); //fetch an individual item
+//        }
+//    }
 //
-//    //read
-//    List<Attendees> getAll();
+//    @Override
+//    public void updateAttendee (int id, String name, String description, String speaker, String room){
+//        String sql = "UPDATE events SET name = :name, description = :description, speaker = :speaker, room = :room WHERE id = :id";
+//        try(Connection con = sql2o.open()) {
+//            con.createQuery(sql)
+//                    .addParameter("name", name)
+//                    .addParameter("id", id)
+//                    .addParameter("description", description)
+//                    .addParameter("speaker", speaker)
+//                    .addParameter("room", room)
+//                    .executeUpdate();
+//        } catch (Sql2oException ex) {
+//            System.out.println(ex);
+//        }
+//    }
 //
-//    //find an attendee by id
-//    Attendees findById(int id);
+//    @Override
+//    public void deleteById(int id){
+//        String sql = "DELETE from events WHERE id=:id";
+//        try (Connection con = sql2o.open()) {
+//            con.createQuery(sql)
+//                    .addParameter("id", id)
+//                    .executeUpdate();
+//        } catch (Sql2oException ex){
+//            System.out.println(ex);
+//        }
+//    }
 //
-//    //update attendee details
-//    void update(int id, String name);
-//
-//    //delete a single attendee by id
-//    void deleteById(int id);
-//
-//    //delete all attendees from system
-//    void clearAllAttendees();
-//
-//    //delete all attendees from an event
-//    void deleteAllAttendeesFromSingleEvent();
+//    @Override
+//    public void clearAllEvents() {
+//        String sql = "DELETE from events";
+//        try (Connection con = sql2o.open()) {
+//            con.createQuery(sql)
+//                    .executeUpdate();
+//        } catch (Sql2oException ex){
+//            System.out.println(ex);
+//        }
+//    }
 }
