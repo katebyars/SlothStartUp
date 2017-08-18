@@ -11,7 +11,7 @@ public class Event {
     private List<Attendees> attendees;
 
 
-    public Event(String name, String description) {
+    public Event(String name, String description, String speaker, String room) {
         this.name = name;
         this.description = description;
         this.speaker = speaker;
