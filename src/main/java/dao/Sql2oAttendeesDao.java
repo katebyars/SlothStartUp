@@ -52,22 +52,23 @@ public class Sql2oAttendeesDao implements AttendeesDao {
                     .executeAndFetchFirst(Attendees.class); //fetch an individual item
         }
     }
-//
-//    @Override
-//    public void updateAttendee (int id, String name, String description, String speaker, String room){
-//        String sql = "UPDATE events SET name = :name, description = :description, speaker = :speaker, room = :room WHERE id = :id";
-//        try(Connection con = sql2o.open()) {
-//            con.createQuery(sql)
-//                    .addParameter("name", name)
-//                    .addParameter("id", id)
-//                    .addParameter("description", description)
-//                    .addParameter("speaker", speaker)
-//                    .addParameter("room", room)
-//                    .executeUpdate();
-//        } catch (Sql2oException ex) {
-//            System.out.println(ex);
-//        }
-//    }
+
+    @Override
+    public void updateAttendee (int id, String name, String homecity, int age, String foodpreference, int eventid){
+        String sql = "UPDATE attendees SET name = :name, homecity = :homecity, age = :age, foodpreference = :foodpreference, eventid = :eventid WHERE id = :id";
+        try(Connection con = sql2o.open()) {
+            con.createQuery(sql)
+                    .addParameter("name", name)
+                    .addParameter("homecity", homecity)
+                    .addParameter("age", age)
+                    .addParameter("foodpreference", foodpreference)
+                    .addParameter("eventid", eventid)
+                    .addParameter("id", id)
+                    .executeUpdate();
+        } catch (Sql2oException ex) {
+            System.out.println(ex);
+        }
+    }
 //
 //    @Override
 //    public void deleteById(int id){

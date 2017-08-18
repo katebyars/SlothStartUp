@@ -9,9 +9,8 @@ public interface AttendeesDao {
     List<Attendees> getAll();
 
     Attendees findById(int id);
-//
-//    //update attendee details
-//    void updateAttendee(int id, String name, String description, String speaker, String room);
+
+    void updateAttendee(int id, String name, String homeCity, int age, String foodPreference, int eventId);
 //
 //    //delete an attendee
 //    void deleteById(int id);
