@@ -105,4 +105,15 @@ public class Sql2oEventDaoTest {
       assertEquals("New Event", eventDao.findById(3).getName());
     }
 
+    @Test
+    public void deleteAllEvents_True() {
+        Event testEvent = testEvent();
+        Event testEvent2 = new Event("New Event 2", "A description", "Tim", "Super");
+        Event testEvent3 = testEvent();
+        eventDao.add(testEvent);
+        eventDao.add(testEvent2);
+        eventDao.add(testEvent3);
+        eventDao.clearAllEvents();
+        assertEquals(0, eventDao.getAll().size());
+    }
 }

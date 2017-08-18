@@ -20,6 +20,6 @@ public interface EventDao {
     void deleteById(int id);
 
     //delete all events
-//    void clearAllEvents();
+    void clearAllEvents();
 
 }

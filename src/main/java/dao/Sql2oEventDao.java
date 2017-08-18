@@ -78,10 +78,15 @@ public class Sql2oEventDao implements EventDao {
             System.out.println(ex);
         }
     }
-//
-//    //delete all events
-//    void clearAllEvents();
-//}
 
-
+    @Override
+    public void clearAllEvents() {
+        String sql = "DELETE from events";
+        try (Connection con = sql2o.open()) {
+            con.createQuery(sql)
+                    .executeUpdate();
+        } catch (Sql2oException ex){
+            System.out.println(ex);
+        }
+    }
 }
