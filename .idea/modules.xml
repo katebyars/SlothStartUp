@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Sloth-StartUp.iml" filepath="$PROJECT_DIR$/.idea/modules/Sloth-StartUp.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Sloth-StartUp_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Sloth-StartUp_main.iml" group="Sloth-StartUp" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Sloth-StartUp_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Sloth-StartUp_test.iml" group="Sloth-StartUp" />
+      <module fileurl="file://$PROJECT_DIR$/SlothStartUp.iml" filepath="$PROJECT_DIR$/SlothStartUp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SlothStartUp_main.iml" filepath="$PROJECT_DIR$/.idea/modules/SlothStartUp_main.iml" group="SlothStartUp" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SlothStartUp_test.iml" filepath="$PROJECT_DIR$/.idea/modules/SlothStartUp_test.iml" group="SlothStartUp" />
     </modules>
   </component>
 </project>
