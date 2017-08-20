@@ -1,31 +1,100 @@
 {{#partial "content"}}
+
     {{#if editEvent}}
-            <h1>Edit this Event!</h1>
+        <div class="row">
+            <h1>Edit {{ editEvent.id }} </h1>
+
             <form action="/events/{{editEvent.id}}/update" method="post">
                 <label for="name">Change event name</label>
-                <input id="name" name="name" type="text" value="{{editEvent.name}}"><br>
+                <input id="name" name="name" type="text" value="{{editEvent.name}}" required><br>
+
+                <label for="description">Change event description</label>
+                <input id="description" name="description" type="text" value="{{editEvent.description}}" required><br>
+
+                <label for="speaker">Change event speaker</label>
+                <input id="speaker" name="speaker" type="text" value="{{editEvent.speaker}}" required><br>
+
+                <label for="room">Change event room</label>
+                <input id="room" name="room" type="text" value="{{editEvent.room}}" required><br>
+
                 <button type="submit" class="btn btn-default">Go!</button>
             </form>
+        </div>
+
         {{else if addAttendees}}
+        <div class="row">
+
             <form action="/events/{{addAttendees.id}}/attendees" method="post">
                 <p>You may add attendees to this event, one at a time.</p>
-                <label for="attendee">Attendee:</label>
-                <input id="attendee" name="attendee" type="text"><br>
+                <label for="name">NAME:</label>
+                <input id="name" name="name" type="text" required><br>
+
+                <label for="homecity">HOME CITY:</label>
+                <input id="homecity" name="homecity" type="text" required><br>
+
+                <label for="age">AGE:</label>
+                <input id="age" name="age" type="number" required><br>
+
+                <label for="food">FOOD:</label>
+                <input id="food" name="food" type="text" required><br>
+
+
                 <button type="submit" class="btn btn-default">Go!</button>
             </form>
-        {{else}}
-        <h1>Add a new Event!</h1>
-        <form action="/events/new" method="post">
-        <label for="name">Event Name</label>
-        <input id="name" name="name" type="text">
+        </div>
 
-        <label for="description">Description</label>
-        <input id="description" name="description" type="text"><br>
-            <button type="submit" class="btn btn-default">Go!</button>
-        </form>
+        {{else if editAttendee}}
+            <div class="row">
+                <h1>Edit {{ editAttendee.id }} </h1>
+
+                <form action="/attendees/{{editAttendee.id}}/update" method="post">
+                    <label for="name">Change attendee name</label>
+                    <input id="name" name="name" type="text" value="{{editAttendee.name}}" required><br>
+
+                    <label for="age">Change attendee age</label>
+                    <input id="age" name="age" type="number" value="{{editAttendee.age}}" required><br>
+
+                    <label for="homecity">Change attendee home city</label>
+                    <input id="homecity" name="homecity" type="text" value="{{editAttendee.homeCity}}" required><br>
+
+                    <label for="foodpreference">Change attendee dietary preferences</label>
+                    <input id="foodpreference" name="foodpreference" type="text" value="{{editAttendee.foodPreference}}" required><br>
+
+                    <button type="submit" class="btn btn-default">Go!</button>
+                </form>
+            </div>
+
+
+        {{else}}
+        <div class="row"><center>><h1>Add a new Event!</h1></center></div>
+        <div class="row">
+            <div class="col-md-3">
+            <form action="/events/new" method="post">
+            <label for="name">Event Name</label>
+            <input id="name" name="name" type="text" required><br>
+            </div>
+
+            <div class="col-md-3">
+            <label for="description">Description</label>
+            <input id="description" name="description" type="text" required><br>
+            </div>
+
+            <div class="col-md-3">
+            <label for="speaker">Speaker</label>
+            <input id="speaker" name="speaker" type="text" required><br>
+            </div>
+
+            <div class="col-md-3">
+            <label for="room">Room</label>
+            <input id="room" name="room" type="text" required><br>
+            </div>
+            <center><button type="submit" class="btn btn-default">Go!</button></center>
+            </form>
+
+
+        </div>
+
     {{/if}}
-        <!--<button type="submit" class="btn btn-default">Go!</button>-->
-        <!--</form>-->
 {{/partial}}
 
 {{> layout.hbs}}

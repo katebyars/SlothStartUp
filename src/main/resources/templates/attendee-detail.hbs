@@ -1,0 +1,19 @@
+{{#partial "content"}}
+    <div class="row">
+        <div class="well">
+            <h1>{{ attendee.name }}</h1>
+            <h3> Age : {{ attendee.age }}</h3>
+            <h3> Home City : {{ attendee.homeCity }}</h3>
+            <h3> Diet : {{ attendee.foodPreference }}</h3>
+
+            <p><a href="/attendees/{{attendee.id}}/update">Edit this attendee</p><br>
+            <p><a href="/attendees/{{attendee.id}}/delete">Delete this attendee<sm><em> Permanent!</em></sm></a><br></p>
+
+
+
+
+        </div>
+    </div>
+{{/partial}}
+
+{{> layout.hbs}}

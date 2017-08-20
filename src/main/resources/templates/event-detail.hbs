@@ -3,14 +3,17 @@
         <div class="well">
             <h1>{{ event.name }}</h1>
             <p> Event description : {{ event.description }}</p>
+            <p> Event speaker : {{ event.speaker }}</p>
+            <p> Room : {{ event.room }}</p>
             <p>Attendees:
                 <ul>
                     {{#each event.attendees}}
                         <li class="attendee">{{ this }}</li>
                     {{/each}}
                 </ul>
-            <p><a href="/events/{{event.id}}/update"> Edit event name</a><br></p>
+            <p><a href="/events/{{event.id}}/update"> Edit this event</a><br></p>
             <p><a href="/events/{{event.id}}/attendees">Add attendees</a><br></p>
+            <p><a href="/events/{{event.id}}/delete">Delete this event<sm><em> Permanent!</em></sm></a><br></p>
     </div>
     </div>
 {{/partial}}

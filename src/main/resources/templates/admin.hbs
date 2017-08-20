@@ -1,0 +1,59 @@
+{{#partial "content"}}
+    <div class="row">
+        <div class="col-md-12">
+            <h3>Stats</h3>
+            <div class="well">
+                <p>Stats Area</p>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <h3>All Events</h3>
+            {{#if allEvents }}
+                {{#each allEvents }}
+                    <div class="well">
+                        <h3><a href="/events/{{id}}">{{ name }}</a></h3>
+                    </div>
+                {{/each}}
+            {{else }}
+                <div class="well">
+                    <h3>No events have been planned!</h3>
+                </div>
+            {{/if }}
+        </div>
+
+        <div class="col-md-4">
+        <h3>All Attendees</h3>
+            {{#if allAttendees }}
+                {{#each allAttendees }}
+                    <div class="well">
+                        <h3><a href="/attendees/{{id}}">{{ name }}</a></h3>
+                    </div>
+                {{/each}}
+            {{else }}
+                <div class="well">
+                    <h3>No attendees are attending!</h3>
+                </div>
+            {{/if }}
+        </div>
+
+        <div class="col-md-4">
+        <h3>Actions</h3>
+            <div class="well">
+            <p><a href="/events/new">Add An Event</a></p>
+            </div>
+            <div class="well">
+                <p><a href="/events/delete">Delete All Events<sm> Permanent!</sm></a></p>
+            </div>
+            <div class="well">
+                <p><a href="/attendees/delete">Delete All Attendees<sm>Permanent!</sm></a></p>
+            </div>
+        </div>
+    </div>
+
+{{/partial }}
+
+{{> layout.hbs}}
