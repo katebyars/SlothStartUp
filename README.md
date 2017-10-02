@@ -12,9 +12,34 @@ This specially designed admin dashboard will help Sloth organizers keep track of
 
 Created for Epicodus Java/Android Track, Summer 2017.
 
+## About the Project
+_The Sloth Event Planner is a customized website where Sloths can plan their next conference._
+![You can sort the results via dropdown menu](resources/gitimages/1.png)
+
+_It contains an admin area where sloths can enter attendees and new events._
+![You can sort the results via dropdown menu](resources/gitimages/2.png)
+
+_Sloth organizers can add a new event._
+![You can sort the results via dropdown menu](resources/gitimages/3.png)
+
+_They can put in the details._
+![You can sort the results via dropdown menu](resources/gitimages/4.png)
+
+_New events are displayed on the admin home page._
+![You can sort the results via dropdown menu](resources/gitimages/5.png)
+
+_The details of each event are displayed on a separate page, along with an option to add attendees._
+![You can sort the results via dropdown menu](resources/gitimages/6.png)
+
+_Users enter attendee details on the add attendees page._
+![You can sort the results via dropdown menu](resources/gitimages/7.png)
+
+_Attendees are displayed on the admin homepage._
+![You can sort the results via dropdown menu](resources/gitimages/8.png)
 ## Setup/Installation Requirements
 
-* Open in any browser.
+* Open project in IntelliJ and configure with a Gradle wrapper.
+* Run the app and open in your local host.
 
 ## Known Bugs
 
