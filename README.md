@@ -17,25 +17,27 @@ _The Sloth Event Planner is a customized website where Sloths can plan their nex
 ![The Sloth Event Planner is a customized website where Sloths can plan their next conference](https://github.com/katebyars/SlothStartUp/blob/master/src/main/resources/public/images/1.png)
 
 _It contains an admin area where sloths can enter attendees and new events._
-![You can sort the results via dropdown menu](resources/images/2.png)
+![It contains an admin area where sloths can enter attendees and new events](https://github.com/katebyars/SlothStartUp/blob/master/src/main/resources/public/images/2.png)
 
 _Sloth organizers can add a new event._
-![You can sort the results via dropdown menu](resources/images/3.png)
+![Sloth organizers can add a new event.](https://github.com/katebyars/SlothStartUp/blob/master/src/main/resources/public/images/3.png)
 
 _They can put in the details._
-![You can sort the results via dropdown menu](resources/images/4.png)
+![They can put in the details.](https://github.com/katebyars/SlothStartUp/blob/master/src/main/resources/public/images/4.png)
 
 _New events are displayed on the admin home page._
-![You can sort the results via dropdown menu](resources/images/5.png)
+![_New events are displayed on the admin home page](https://github.com/katebyars/SlothStartUp/blob/master/src/main/resources/public/images/5.png)
 
 _The details of each event are displayed on a separate page, along with an option to add attendees._
-![You can sort the results via dropdown menu](resources/images/6.png)
+![The details of each event are displayed on a separate page, along with an option to add attendees.u](https://github.com/katebyars/SlothStartUp/blob/master/src/main/resources/public/images/6.png)
 
 _Users enter attendee details on the add attendees page._
-![You can sort the results via dropdown menu](resources/images/7.png)
+![Users enter attendee details on the add attendees page.](https://github.com/katebyars/SlothStartUp/blob/master/src/main/resources/public/images/7.png)
 
 _Attendees are displayed on the admin homepage._
-![You can sort the results via dropdown menu](resources/images/8.png)
+![Attendees are displayed on the admin homepage.](https://github.com/katebyars/SlothStartUp/blob/master/src/main/resources/public/images/8.png)
+
+
 ## Setup/Installation Requirements
 
 * Open project in IntelliJ and configure with a Gradle wrapper.
@@ -43,7 +45,7 @@ _Attendees are displayed on the admin homepage._
 
 ## Known Bugs
 
-* No known bugs.
+* No known bugs at this time, although I have a wish list of features to add to increase functionality.
 
 ## Specifications
 
