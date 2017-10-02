@@ -14,7 +14,7 @@ Created for Epicodus Java/Android Track, Summer 2017.
 
 ## About the Project
 _The Sloth Event Planner is a customized website where Sloths can plan their next conference._
-![The Sloth Event Planner is a customized website where Sloths can plan their next conference](resources/images/1.png)
+![The Sloth Event Planner is a customized website where Sloths can plan their next conference](https://github.com/katebyars/SlothStartUp/blob/master/src/main/resources/public/images/1.png)
 
 _It contains an admin area where sloths can enter attendees and new events._
 ![You can sort the results via dropdown menu](resources/images/2.png)
